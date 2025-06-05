@@ -1,12 +1,14 @@
-import React, { useState } from "react";
-import Grid from "./Grid";
-import "./App.css";
-
-export default function App() {
-  return (
-    <div className="app">
-      <h1>Glucose Puzzle: C₆H₁₂O₆</h1>
-      <Grid />
-    </div>
-  );
+{
+  "name": "glucose-puzzle-react",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://yourusername.github.io/glucose-puzzle-react",
+  ...
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  ...
 }
